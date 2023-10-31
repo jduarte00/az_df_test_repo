@@ -110,7 +110,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"FileName": {
-											"value": "@concat(@item().TABLE_SCHEMA, '_', @item().TABLE_NAME, '.csv' )\n\n",
+											"value": "@concat(item().TABLE_SCHEMA,'_',item().TABLE_NAME,'.csv')",
 											"type": "Expression"
 										}
 									}
